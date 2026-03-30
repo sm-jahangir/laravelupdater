@@ -21,7 +21,7 @@ return [
     |
     */
     'last_patch_at' => env('LAST_PATCH_AT', '2026-03-30 19:28:58'),
- 
+
     /*
     |--------------------------------------------------------------------------
     | Paths to Scan
@@ -59,6 +59,11 @@ return [
         '.idea',
         'patches',
         'patchs',
+        // Frontend build directories (Vue/React)
+        'public/build',
+        'public/dist',
+        'public/hot',
+        'public/assets',
     ],
 
     /*
